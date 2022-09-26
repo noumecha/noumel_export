@@ -1,0 +1,13 @@
+{
+    "name": "noumecha/noumel_export",
+    "description": "\"A test module exporting some paragraphs configuration\"",
+    "type": "drupal-custom-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "noumecha spaker",
+            "email": "noumechaivan@gmail.com"
+        }
+    ],
+    "require": {}
+}

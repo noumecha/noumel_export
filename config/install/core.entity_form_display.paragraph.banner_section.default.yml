@@ -1,0 +1,36 @@
+uuid: 3830e316-3acb-4bc7-96ac-b8b8160f4d08
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner_section.field_hero_description
+    - field.field.paragraph.banner_section.field_hero_title
+    - paragraphs.paragraphs_type.banner_section
+  module:
+    - text
+id: paragraph.banner_section.default
+targetEntityType: paragraph
+bundle: banner_section
+mode: default
+content:
+  field_hero_description:
+    type: text_textarea_with_summary
+    weight: 1
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_hero_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,5 @@
+name: noumel_export
+type: module
+description: Module for exporting configs
+package: Custom
+core_version_requirement: ^9 || ^10

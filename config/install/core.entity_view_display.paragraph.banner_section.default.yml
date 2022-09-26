@@ -1,0 +1,227 @@
+uuid: a5593608-7b00-4488-af1e-d0e866f3181c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner_section.field_hero_description
+    - field.field.paragraph.banner_section.field_hero_title
+    - paragraphs.paragraphs_type.banner_section
+    - views.view.hero_vue
+  module:
+    - layout_builder
+    - mit_models
+    - text
+    - views
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: mit_models_title_section
+        layout_settings:
+          label: ' Mit_Models : Title  ( mit_models_title_section ) '
+          context_mapping: {  }
+          load_libray: 0
+          derivate:
+            value: ''
+            options:
+              mitor-section-title--bg: before-bg
+          region_tag_title: h1
+          infos:
+            builder-form: true
+            info:
+              title: 'Texte information'
+              loader: dynamic
+            fields:
+              title:
+                text_html:
+                  label: Titre
+                  value: ' Best Digital Agency Since 1998 Over the internet '
+                  format: full_html
+              description:
+                text_html:
+                  label: ' Descritpion '
+                  value: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus provident amet, nam doloremque error sequi quos fugiat unde eligendi aut fugit quibusdam adipisci ipsa magni praesentium accusamus quas laboriosam? At.  '
+                  format: full_html
+              teaser_container:
+                text_html:
+                  label: 'Section card Container'
+                  value: "<div class=\"mitor-card mitor-card--triangle-right  mitor-card--reverse  row\">\r\n                                            <div class=\"mitor-card__img col-lg-6\">\r\n                                                <div class=\"img-bloc\">\r\n                                                    <a href=\"#\">\r\n                                                        <img src=\"http://slidesigma.com/themes/html/mitor/assets/img/homepage-1/product-2.jpg\"\r\n                                                            alt=\"\">\r\n                                                    </a>\r\n                                                </div>\r\n                                            </div>\r\n                                            <div class=\"mitor-card__body col-lg-6 pt-3 pt-lg-0\">\r\n                                                <h3 class=\"mc-title\">\r\n                                                    We Ensure the Success of Your Products and Business</h3>\r\n                                                <div class=\"mc-description\">\r\n                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\r\n                                                    labore\r\n                                                    et dolore magna aliqua. Quis ipsum suspe ndisse ultrices gravida. Risus commodo viverra\r\n                                                    maecenas\r\n                        \r\n                        \r\n                        \r\n                        \r\n                                                    ccumsanamet, consectetur adipiscing elit, sed do eiusmod tempor incid idunt ut labore et\r\n                                                    dolore\r\n                                                    magna aliqua. Quis ipsum suspendisse ultrices Letraset sheets containing gravida.\r\n                                                    <ol>\r\n                                                        <li>\r\n                                                            <div>\r\n                                                                <h5>Cesi est un titre</h5>\r\n                                                                <p>There are many variations of passages of Lorem Ipsum available, but the\r\n                                                                    majority\r\n                                                                    have\r\n                                                                    suffered.</p>\r\n                                                            </div>\r\n                                                        </li>\r\n                                                        <li>mangoste\r\n                                                            There are many variations of passages of Lorem Ipsum available, but the majority\r\n                                                            have\r\n                                                            suffered. filbonar </li>\r\n                                                        <li>mangoste\r\n                                                            There are many variations of passages of Lorem Ipsum available, but the majority\r\n                                                            have\r\n                                                            suffered.nar </li>\r\n                        \r\n                        \r\n                                                    </ol>\r\n                                                </div>\r\n                                                <a href=\"#\" class=\"mitor-btn  \">Contact us</a>\r\n                                            </div>\r\n                                        </div>"
+                  format: full_html
+              title_section_btn:
+                url:
+                  label: LIEN
+                  value:
+                    text: 'Contact us'
+                    link: '#'
+                    class: mitor-btn
+          region_css_title: ''
+          region_css_description: ''
+          region_css_title_section_btn: 'container d-flex'
+          region_css_teaser_container: col-lg-4
+          css: 'pb-0 mb-0'
+          load_clean_value: 0
+          save_by_domain: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: color
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              scroll_effects:
+                class: null
+          region_tag_description: ''
+          region_tag_title_section_btn: ''
+          region_tag_teaser_container: ''
+        components:
+          56a7691d-276c-4850-9404-26e209ecdd67:
+            uuid: 56a7691d-276c-4850-9404-26e209ecdd67
+            region: description
+            configuration:
+              id: 'field_block:paragraph:banner_section:field_hero_description'
+              label: banner_description
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings:
+                  field_formatter_class:
+                    class: ''
+            weight: 0
+            additional: {  }
+          8da75501-9c4a-44f5-9ed9-43b7ab15ca46:
+            uuid: 8da75501-9c4a-44f5-9ed9-43b7ab15ca46
+            region: title
+            configuration:
+              id: 'field_block:paragraph:banner_section:field_hero_title'
+              label: banner_title
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings: {  }
+                third_party_settings:
+                  field_formatter_class:
+                    class: ''
+            weight: 0
+            additional: {  }
+          98481b5d-d63f-4019-8e6a-9ae5f007b979:
+            uuid: 98481b5d-d63f-4019-8e6a-9ae5f007b979
+            region: teaser_container
+            configuration:
+              id: 'views_block:hero_vue-block_2'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: paragraph.banner_section.default
+targetEntityType: paragraph
+bundle: banner_section
+mode: default
+content:
+  field_hero_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_hero_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
